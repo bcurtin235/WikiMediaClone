@@ -6,40 +6,93 @@
 #intro{
 	text-align: justify;
 	vertical-align: top;
-	width: 90%;
+	width: 800px;
 	font-size: 150%;
 	margin: 0 auto;
 }
 .divtable{
 	
+	display:table;
 	border-collapse: separate;
 	border-spacing: 2px;
-	border-color: gray;
-	display:inline;
-	width: 100%;
+	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
+	vertical-align: center;
 
 }
+.row1{
+	display:table-row;
+	vertical-align: center;
+
+}
+.row2{
+	display: table-row;
+	vertical-align: center;
+}
+.row3{
+	display:table-row;
+	vertical-align: center;
+}
 #image1{
-	float:left;
-	margin-left:auto;
-	margin-right:auto;
+	display:table-cell;
+	margin: 25 15 15 15;
+	
 }
 #image2{
-	float:left;
-	margin-left:auto;
-	margin-right:auto;
+	display: table-cell;
+	margin-left:50px;
+	margin-right:50px;
 }
 #image3{
-	float:left;
-	margin-left:auto;
-	margin-right:auto;
+	display: table-cell;
+	margin-left:50px;
+	margin-right:50px;
 }
 #image4{
-	float:left;
-	margin-left:auto;
-	margin-right:auto;
+	display: table-cell;
+	margin-left:50px;
+	margin-right:50px;
+}
+#image5{
+	display:table-cell;
+	margin: 25 15 15 15;
+	
+}
+#image6{
+	display:table-cell;
+	margin: 25 15 15 15;
+	
+}
+#image7{
+	display:table-cell;
+	margin: 25 15 15 15;
+	
+}
+#image8{
+	display:table-cell;
+	margin: 25 15 15 15;
+	
+}
+#image9{
+	display:table-cell;
+	margin: 25 15 15 15;
+	
+}
+#image10{
+	display:table-cell;
+	margin: 25 15 15 15;
+	
+}
+#image11{
+	display:table-cell;
+	margin: 25 15 15 15;
+	
+}
+#image12{
+	display:table-cell;
+	margin: 25 15 15 15;
+	
 }
 #footer{
 	text-align: center;
@@ -52,10 +105,10 @@
 	white-space: nowrap;
 }
 #footer1{
-	float:left;
+	float:;
 	text-align: center;
 }
 #footer2{
-	float:right;
+	float:;
 	text-align: center;
 }
